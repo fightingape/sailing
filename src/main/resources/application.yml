@@ -1,0 +1,45 @@
+server:
+  port: 56085
+  servlet:
+    context-path: /sailing
+
+spring:
+  application:
+    name: sailing
+
+  main:
+    allow-bean-definition-overriding: true
+
+
+
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+
+  redis:
+    host: localhost
+    port: 6379
+    shutdown-timeout: 100
+    lettuce:
+      pool:
+        max-idle: 8
+        min-idle: 0
+        max-active: 8
+        max-wait: 10000
+    timeout: 10000
+
+  sms:
+    qcloud:
+      appId: 14000000
+      appKey: 36ff7sd14d0d2342344cdf335cc25052
+      templateId: 234323
+      sign: 签名
+
+swagger:
+  enable: true
+
+logging:
+  config: classpath:log4j2.xml
+    
+
+
