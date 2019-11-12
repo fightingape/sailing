@@ -77,7 +77,7 @@ public class SmsNumberVerificationHandler extends AbstractVerificationHandler {
 		smsService.send(mobile, code, getEffectiveTime());
 
 		// 测试使用，在控制台输出验证码
-		// smsService.sendOnConsole(mobile, code, getEffectiveTime());
+//		smsService.sendOnConsole(mobile, code, getEffectiveTime());
 		return null;
 	}
 

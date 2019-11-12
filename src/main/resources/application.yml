@@ -28,12 +28,12 @@ spring:
         max-wait: 10000
     timeout: 10000
 
-  sms:
-    qcloud:
-      appId: 14000000
-      appKey: 36ff7sd14d0d2342344cdf335cc25052
-      templateId: 234323
-      sign: 签名
+sms:
+  qcloud:
+    appId: 14000000
+    appKey: 36ff7sd14d0d2342344cdf335cc25052
+    templateId: 234323
+    sign: 签名
 
 swagger:
   enable: true

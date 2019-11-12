@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.Map;
 
-@Api(value = "认证码服务接口")
+@Api(value = "验证码服务接口")
 @RestController
 public class VerificationController {
 
